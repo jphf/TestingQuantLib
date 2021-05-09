@@ -165,7 +165,11 @@
     <ClCompile Include="quant\Macro.cpp" />
     <ClCompile Include="quant\Schedule.cpp" />
     <ClCompile Include="quant\Singleton.cpp" />
+    <ClCompile Include="quant\TestHandle.cpp" />
+    <ClCompile Include="quant\TestLazyObject.cpp" />
+    <ClCompile Include="quant\TestObserver.cpp" />
     <ClCompile Include="quant\Variable.cpp" />
+    <ClCompile Include="quant\SimpleYield.cpp" />
     <ClCompile Include="TestingQuantLib.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -173,9 +177,13 @@
     <ClInclude Include="boost\Serialization3.h" />
     <ClInclude Include="boost\Serialization4.h" />
     <ClInclude Include="boost\TestClassA.h" />
+    <ClInclude Include="quant\LazyObject2.h" />
+    <ClInclude Include="quant\LazyObjectBS.h" />
     <ClInclude Include="quant\ObjectRepository.h" />
     <ClInclude Include="quant\MakeMyOption.h" />
     <ClInclude Include="quant\MyOption.h" />
+    <ClInclude Include="quant\SimpleYield.h" />
+    <ClInclude Include="quant\LazyObject1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

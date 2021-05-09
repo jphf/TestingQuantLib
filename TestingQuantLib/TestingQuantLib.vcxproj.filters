@@ -81,6 +81,18 @@
     <ClCompile Include="quant\Singleton.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="quant\SimpleYield.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="quant\TestObserver.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="quant\TestLazyObject.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="quant\TestHandle.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boost\TestClassA.h">
@@ -102,6 +114,18 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="quant\ObjectRepository.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="quant\SimpleYield.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="quant\LazyObject1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="quant\LazyObjectBS.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="quant\LazyObject2.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>

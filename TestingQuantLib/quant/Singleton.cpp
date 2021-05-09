@@ -180,9 +180,9 @@ void testingSingleton3() {
 	std::cout << (*myOptionGet).getStrike() << std::endl;
 }
 
-int main() {
-	//testingSingleton1();
-	//testingSingleton2();
-
-	testingSingleton3();
-}
+//int main() {
+//	//testingSingleton1();
+//	//testingSingleton2();
+//
+//	testingSingleton3();
+//}
